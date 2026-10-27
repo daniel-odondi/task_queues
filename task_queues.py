@@ -1,10 +1,10 @@
+#Queues are data structure used to effect the first come first served procedure
 # A simple task queue in Python using Python's built-in queue module.
 
 from queue import Queue
 
 # create a task queue
 task_queue = Queue()
-
 # Add tasks
 task_queue.put("Send confirmation email")
 task_queue.put("Generate invoice")
